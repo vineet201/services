@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 100vw;
+    height: 100vh; */
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+/* Additional styles for larger screens if needed */
+@media screen and (min-width: 768px) {
+    body {
+        /* Additional styles for larger screens, if needed */
+    }
+}
+
+/* Additional styles for even larger screens if needed */
+@media screen and (min-width: 1024px) {
+    body {
+        /* Additional styles for even larger screens, if needed */
+    }
+}
+
+
+.rounded-form {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn {
+    background-color: #1e1e20 !important; /* Set background color to blue */
+    border-color: #140f15 !important;
+    color: #fff !important; /* Set text color to white */
+    border-radius: 6px !important;
+    padding: 8px !important;
+
+}
+
+.custom-btn:hover {
+    background-color: #26052a !important; /* Set background color to blue */
+    border-color: #793d80 !important;
+    color: #ffffff !important; /* Set text color to white */
+}
+.form-group {
+    margin-bottom: 10px !important;
+    border-radius: 20px !important;
+    font-family: serif;
+    font-weight: 100;
+    font-size: smaller;
+    
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    border-radius: 8px; /* Adjust the value as needed */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    padding: 10px; /* Add padding to provide space within the input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+.btn-block {
+    border-radius: 15px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Add these styles to your existing CSS */
+
+.thank-you-message {
+    display: none;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thank-you-message button:hover {
+    background-color: #f2f2f2;
+}
