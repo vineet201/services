@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#__next {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.dark:bg-transparent {
+    /* Add your dark mode styles here if applicable */
+}
+
+.rounded-md {
+    border-radius: 0.375rem; /* Adjust as needed */
+}
+
+.text-green-500 {
+    color: #00cc66; /* Adjust as needed */
+}
+
+.dark:text-green-300 {
+    /* Add your dark mode text color if applicable */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+.pt-7 {
+    padding-top: 1.75rem; /* Adjust as needed */
+}
+
+.max-w-md {
+    max-width: 28rem; /* Adjust as needed */
+}
+
+.pt-3 {
+    padding-top: 0.75rem; /* Adjust as needed */
+}
+
+.text-gray-500 {
+    color: #666; /* Adjust as needed */
+}
+
+.dark:text-gray-300 {
+    /* Add your dark mode text color if applicable */
+}
+
+.md\:px-3 {
+    padding-left: 0.75rem; /* Adjust as needed */
+    padding-right: 0.75rem; /* Adjust as needed */
+}
+
+.mt-5 {
+    margin-top: 1.25rem; /* Adjust as needed */
+}
+
+
+.dark:text-white {
+    /* Add your dark mode text color if applicable */
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bottom-10 {
+    bottom: -2.5rem; /* Adjust as needed */
+}
+
+.text-gray-400 {
+    color: #999; /* Adjust as needed */
+}
+
+.underline {
+    text-decoration: underline;
+}
